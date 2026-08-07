@@ -1,0 +1,211 @@
+var _____WB$wombat$assign$function_____=function(name){return (globalThis._wb_wombat && globalThis._wb_wombat.local_init && globalThis._wb_wombat.local_init(name))||globalThis[name];};if(!globalThis.__WB_pmw){globalThis.__WB_pmw=function(obj){this.__WB_source=obj;return this;}}{
+let window = _____WB$wombat$assign$function_____("window");
+let self = _____WB$wombat$assign$function_____("self");
+let document = _____WB$wombat$assign$function_____("document");
+let location = _____WB$wombat$assign$function_____("location");
+let top = _____WB$wombat$assign$function_____("top");
+let parent = _____WB$wombat$assign$function_____("parent");
+let frames = _____WB$wombat$assign$function_____("frames");
+let opener = _____WB$wombat$assign$function_____("opener");
+var poll_id = 0, poll_answer_id = "", is_being_voted = false;
+pollsL10n.show_loading = parseInt(pollsL10n.show_loading, 10);
+pollsL10n.show_fading = parseInt(pollsL10n.show_fading, 10);
+function poll_vote(a) {
+
+  if (is_being_voted) {
+    alert(pollsL10n.text_wait);
+  } else {
+    set_is_being_voted(true);
+    poll_id = a;
+    poll_answer_id = "";
+    poll_multiple_ans_count = poll_multiple_ans = 0;
+    if (jQuery("#poll_multiple_ans_" + poll_id).length) {
+      poll_multiple_ans = parseInt(jQuery("#poll_multiple_ans_" + poll_id).val(), 10);
+    }
+    jQuery("#polls_form_" + poll_id + " input:checkbox, #polls_form_" + poll_id + " input:radio").each(function() {
+      if (jQuery(this).is(":checked"))
+        if (poll_multiple_ans > 0) {
+          poll_answer_id = jQuery(this).val() + "," + poll_answer_id;
+          poll_multiple_ans_count++;
+        } else {
+          poll_answer_id = parseInt(jQuery(this).val());
+        }
+    });
+    if (poll_multiple_ans > 0)
+      if (poll_multiple_ans_count > 0 && poll_multiple_ans_count <= poll_multiple_ans) {
+        poll_answer_id = poll_answer_id.substring(0, poll_answer_id.length - 1);
+        poll_process()
+      } else if (poll_multiple_ans_count == 0) {
+        set_is_being_voted(false);
+        alert(pollsL10n.text_valid)
+      } else {
+        set_is_being_voted(false);
+        alert(pollsL10n.text_multiple + " " + poll_multiple_ans)
+      }
+    else if (poll_answer_id > 0)
+      poll_process();
+    else {
+      set_is_being_voted(false);
+      alert(pollsL10n.text_valid)
+    }
+  }
+
+}
+function polls_loading_show() { //jQuery("#polls-"+poll_id+"-loading").show()
+  var $pollDiv = jQuery("#polls-" + poll_id);
+  var h = $pollDiv.height();
+  var w = $pollDiv.width();
+  $pollDiv.width(w).height(h).show();
+  return true;
+}
+function poll_process() {
+  if (pollsL10n.show_fading)
+    jQuery("#polls-" + poll_id).fadeTo("def", 0, function() {
+      pollsL10n.show_loading && polls_loading_show();
+      jQuery.ajax({
+        type: "POST",
+        url: pollsL10n.ajax_url,
+        data: "vote=true&poll_id=" + poll_id + "&poll_" + poll_id + "=" + poll_answer_id,
+        cache: false,
+        success: poll_process_success
+      })
+    });
+  else {
+    pollsL10n.show_loading && polls_loading_show();
+    jQuery.ajax({
+      type: "POST",
+      url: pollsL10n.ajax_url,
+      data: "vote=true&poll_id=" + poll_id + "&poll_" + poll_id + "=" + poll_answer_id,
+      cache: false,
+      success: poll_process_success
+    })
+  }
+
+}
+function poll_result(a) {
+  var q = tnk_wp_polls_links[a];
+  q.voted = Cookie.read(q.cname) == '' ? 0 : 1;
+  if (!q.voted) {
+    var res = q.result.replace('pollQuestion', 'pollQuestion active').replace('class="wp-polls-ans"', 'class="wp-polls-ans" style="display:block;"');
+    jQuery("#polls-" + a).fadeTo(250, 0, function() {
+      jQuery("#polls-" + a).replaceWith(res);
+
+      jQuery("#polls-" + a + "-loading").hide();
+      poll_ie_goodies();
+    });
+
+  } else {
+    if (is_being_voted)
+      alert(pollsL10n.text_wait);
+    else {
+      set_is_being_voted(true);
+      poll_id = a;
+      if (pollsL10n.show_fading)
+        jQuery("#polls-" + poll_id).fadeTo("def", 0, function() {
+          pollsL10n.show_loading && polls_loading_show();
+          jQuery.ajax({
+            type: "GET",
+            url: pollsL10n.ajax_url,
+            data: "pollresult=" + poll_id,
+            cache: false,
+            success: poll_process_success
+          })
+        });
+      else {
+        pollsL10n.show_loading && polls_loading_show();
+        jQuery.ajax({
+          type: "GET",
+          url: pollsL10n.ajax_url,
+          data: "pollresult=" +
+                  poll_id,
+          cache: false,
+          success: poll_process_success
+        })
+      }
+    }
+  }
+
+}
+function poll_booth(a) {
+  var q = tnk_wp_polls_links[a];
+  q.voted = Cookie.read(q.cname) == '' ? 0 : 1;
+  if (!q.voted) {
+    var res = q.vote.replace('pollQuestion', 'pollQuestion active').replace('class="wp-polls-ans"', 'class="wp-polls-ans" style="display:block;"');
+
+    jQuery("#polls-" + a).fadeTo(250, 0, function() {
+      jQuery("#polls-" + a).replaceWith(res);
+      jQuery("#polls-" + a + "-loading").hide();
+      var $polls = jQuery('#polls-' + a + ' .custom-radios');
+      if ($polls.find('.js-checkbox').length) {
+        $polls.customCheckbox();
+      }
+      if ($polls.find('.js-radio').length) {
+        $polls.customRadio();
+      }
+      poll_ie_goodies();
+    });
+  } else {
+    if (is_being_voted)
+      alert(pollsL10n.text_wait);
+    else {
+      set_is_being_voted(true);
+      poll_id = a;
+      if (pollsL10n.show_fading)
+        jQuery("#polls-" + poll_id).fadeTo("def", 0, function() {
+          pollsL10n.show_loading && polls_loading_show();
+          jQuery.ajax({
+            type: "GET",
+            url: pollsL10n.ajax_url,
+            data: "pollbooth=" + poll_id,
+            cache: false,
+            success: poll_process_success
+          })
+        });
+      else {
+        pollsL10n.show_loading && polls_loading_show();
+        jQuery.ajax({
+          type: "GET",
+          url: pollsL10n.ajax_url,
+          data: "pollbooth=" +
+                  poll_id,
+          cache: false,
+          success: poll_process_success
+        })
+      }
+    }
+  }
+
+}
+
+function poll_process_success(a) {
+  var b = a.replace('pollQuestion', 'pollQuestion active').replace('class="wp-polls-ans"', 'class="wp-polls-ans" style="display:block;"');
+  jQuery("#polls-" + poll_id).replaceWith(b);
+
+  pollsL10n.show_loading && jQuery("#polls-" + poll_id + "-loading").hide();
+  pollsL10n.show_fading ? jQuery("#polls-" + poll_id).fadeTo("def", 1, function() {
+    poll_ie_goodies();
+    set_is_being_voted(false)
+  }) : set_is_being_voted(false);
+  poll_ie_goodies();
+}
+function set_is_being_voted(a) {
+  is_being_voted = a
+}
+;
+}
+
+/*
+     FILE ARCHIVED ON 06:27:23 Aug 29, 2020 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 12:10:39 Aug 07, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  capture_cache.get: 0.329
+  load_resource: 73.336
+  PetaboxLoader3.resolve: 64.042
+  PetaboxLoader3.datanode: 8.843
+*/

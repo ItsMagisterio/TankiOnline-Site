@@ -1,0 +1,101 @@
+var _____WB$wombat$assign$function_____=function(name){return (globalThis._wb_wombat && globalThis._wb_wombat.local_init && globalThis._wb_wombat.local_init(name))||globalThis[name];};if(!globalThis.__WB_pmw){globalThis.__WB_pmw=function(obj){this.__WB_source=obj;return this;}}{
+let window = _____WB$wombat$assign$function_____("window");
+let self = _____WB$wombat$assign$function_____("self");
+let document = _____WB$wombat$assign$function_____("document");
+let location = _____WB$wombat$assign$function_____("location");
+let top = _____WB$wombat$assign$function_____("top");
+let parent = _____WB$wombat$assign$function_____("parent");
+let frames = _____WB$wombat$assign$function_____("frames");
+let opener = _____WB$wombat$assign$function_____("opener");
+var tnkParallax = {
+  _speed: 2,
+  _selector: '.page-wrapper',
+  _interval: 500,
+  _initialHeight: null,
+  $window: null,
+  $pageWrapper: null,
+  $parallaxWrapper: null,
+  resetCSS: {
+    'background-image': 'none',
+    'overflow': 'hidden'
+  },
+  startCSS: {
+    'position': 'fixed',
+    'top': '0',
+    'left': '0',
+    'right': '0',
+    'height': '100%'
+  },
+  init: function (selector) {
+    var self = this;
+    if (selector) {
+      self._selector = selector;
+    }
+    if (jQuery('html').hasClass('csstransforms3d')) {
+      self.$window = jQuery(window);
+      self.$pageWrapper = jQuery(self._selector);
+      self._initialHeight = self.$pageWrapper.height();
+      var $tmpDiv = jQuery('<div />');
+      $tmpDiv.css(self.startCSS).css({
+        'background-image': self.$pageWrapper.css('background-image'),
+        'background-position': self.$pageWrapper.css('background-position'),
+        'background-repeat': self.$pageWrapper.css('background-repeat'),
+        'min-height': self._initialHeight
+      }).attr('id', 'parallaxWrapper').prependTo('body');
+      self.$pageWrapper.css(self.resetCSS);
+      self.$parallaxWrapper = $tmpDiv;
+
+      setInterval(function () {
+        self.checkHeight();
+      }, self._interval);
+      self.$window.resize(function () {
+        self.resize();
+      });
+      self.bind();
+    }
+  },
+  checkHeight: function () {
+    var self = this;
+    if (self._initialHeight != self.$pageWrapper.height()) {
+      self._initialHeight = self.$pageWrapper.height();
+      self.resize();
+    }
+  },
+  resize: function () {
+    var self = this;
+    self.$parallaxWrapper.css({
+      'min-height': self._initialHeight
+    });
+  },
+  bind: function () {
+    var self = this;
+    self.$window.bind('scroll', function () {
+      var offset = (self.$window.scrollTop() / self._speed);
+      if (offset < 0) {
+        offset = 0;
+      }
+      self.$parallaxWrapper.css('transform', 'translate3d(0, -' + offset + "px, 0)");
+    });
+    self.$window.scroll();
+  }
+};
+jQuery(document).ready(function () {
+  tnkParallax.init();
+});
+}
+
+/*
+     FILE ARCHIVED ON 05:36:10 Sep 10, 2020 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 12:10:45 Aug 07, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  capture_cache.get: 3.306
+  load_resource: 74.522
+  PetaboxLoader3.resolve: 57.188
+  PetaboxLoader3.datanode: 16.889
+*/
