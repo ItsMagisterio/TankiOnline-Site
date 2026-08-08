@@ -212,6 +212,16 @@ html, body {
   padding: 0;
 }
 
+.beta-ribbon {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 77px;
+  height: 81px;
+  z-index: 1100;
+  pointer-events: none;
+}
+
 * html .page-wrapper {
   height: 100%;
 }
