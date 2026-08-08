@@ -8,5 +8,55 @@
       "m": "04",
       "d": "01"
     }
+  },
+  {
+    "l": "#",
+    "i": "images/migracao_redes-326x216.png",
+    "t": "Novos desafios aguardam os pilotos",
+    "d": {
+      "Y": 2020,
+      "m": "04",
+      "d": "02"
+    }
+  },
+  {
+    "l": "#",
+    "i": "images/migracao_banner.png",
+    "t": "Prepare seu tanque para a batalha",
+    "d": {
+      "Y": 2020,
+      "m": "04",
+      "d": "03"
+    }
+  },
+  {
+    "l": "#",
+    "i": "images/migracao_redes-326x216.png",
+    "t": "Dicas rápidas para vencer mais",
+    "d": {
+      "Y": 2020,
+      "m": "04",
+      "d": "04"
+    }
+  },
+  {
+    "l": "#",
+    "i": "images/migracao_banner.png",
+    "t": "A arena está pronta para você",
+    "d": {
+      "Y": 2020,
+      "m": "04",
+      "d": "05"
+    }
+  },
+  {
+    "l": "#",
+    "i": "images/migracao_redes-326x216.png",
+    "t": "Entre na luta e ajude sua equipe",
+    "d": {
+      "Y": 2020,
+      "m": "04",
+      "d": "06"
+    }
   }
 ]

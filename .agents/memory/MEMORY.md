@@ -1,0 +1,1 @@
+- [Imported static snapshots](static-snapshot-quirks.md) — legacy exports may include malformed JavaScript and enumerable prototype helpers that break old array iteration.

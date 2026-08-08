@@ -155,10 +155,10 @@ body.custom-background { background-color: #0e0904; background-image: url("image
                 <div class="custom-select js-custom-select">
                     <div class="custom-select__arrow sprite sprite_custom-select-arrow"></div>
 
-                    <div class="custom-select__active js-active" data-url="/br/">
+                    <div class="custom-select__active js-active" data-url="/en/">
                         <div class="top-line__lang">
-                            <i class="flag flag_pt"></i>
-                            <span class="text">Português</span>
+                            <i class="flag flag_en"></i>
+                            <span class="text">English</span>
                         </div>
                     </div>
                 </div>
@@ -182,48 +182,6 @@ body.custom-background { background-color: #0e0904; background-image: url("image
                                     <span class="text">Deutsch</span>
                                 </div>
                             </div>
-                                                        <div class="custom-select__option js-option" data-url="/pl/">
-                                <div class="top-line__lang">
-                                    <i class="flag flag_pl"></i>
-                                    <span class="text">Polski</span>
-                                </div>
-                            </div>
-                                                        <div class="custom-select__option js-option" data-url="/en/">
-                                <div class="top-line__lang">
-                                    <i class="flag flag_en-br-es"></i>
-                                    <span class="text">English</span>
-                                </div>
-                            </div>
-                                                        <div class="custom-select__option js-option" data-url="/es/">
-                                <div class="top-line__lang">
-                                    <i class="flag flag_es"></i>
-                                    <span class="text">Español</span>
-                                </div>
-                            </div>
-                                                        <div class="custom-select__option js-option" data-url="http://3dtank.com/">
-                                <div class="top-line__lang">
-                                    <i class="flag flag_zh"></i>
-                                    <span class="text">中文</span>
-                                </div>
-                            </div>
-                                                        <div class="custom-select__option js-option" data-url="/fa/">
-                                <div class="top-line__lang">
-                                    <i class="flag flag_fa"></i>
-                                    <span class="text">Farsi</span>
-                                </div>
-                            </div>
-                                                        <div class="custom-select__option js-option" data-url="http://tanki.playpark.com/">
-                                <div class="top-line__lang">
-                                    <i class="flag flag_sg"></i>
-                                    <span class="text">English</span>
-                                </div>
-                            </div>
-                                                        <div class="custom-select__option js-option" data-url="http://tanki.playpark.com/">
-                                <div class="top-line__lang">
-                                    <i class="flag flag_ph"></i>
-                                    <span class="text">English</span>
-                                </div>
-                            </div>
                                             </div>
             </div>
         </div>
@@ -235,6 +193,16 @@ body.custom-background { background-color: #0e0904; background-image: url("image
 
             <div class="main-header__tanks tanks_png"></div>
             <div class="main-header__server-active" style="display: none;">
+
+                <div class="server-picker" aria-label="Server selection">
+                    <span class="server-picker__label">Server</span>
+                    <div class="server-picker__control">
+                        <span class="server-picker__number">1</span>
+                        <span class="server-picker__status"></span>
+                        <span class="server-picker__players"><strong id="serverPlayers">0</strong> players</span>
+                        <span class="server-picker__arrow" aria-hidden="true"></span>
+                    </div>
+                </div>
 
                 <a id="fight" class="main-header__fight-button" href="/battle-br.html">
                     <div class="sprite sprite_fight-button" id="fightInactive"></div>
@@ -357,7 +325,7 @@ body.custom-background { background-color: #0e0904; background-image: url("image
   <script>
   var newsDefaultImage = '/br/wp-content/themes/newest/images/default-small.jpg';
   var newsDefaultPath = '';
-  var newsData = {"data":{"0":{"countFrom":1,"countTo":30,"url":"\/br\/posts\/posts_30.json"},"1":{"countFrom":31,"countTo":60,"url":"\/br\/posts\/posts_60.json"},"2":{"countFrom":61,"countTo":90,"url":"\/br\/posts\/posts_90.json"},"3":{"countFrom":91,"countTo":120,"url":"\/br\/posts\/posts_120.json"},"4":{"countFrom":121,"countTo":150,"url":"\/br\/posts\/posts_150.json"},"5":{"countFrom":151,"countTo":180,"url":"\/br\/posts\/posts_180.json"},"6":{"countFrom":181,"countTo":210,"url":"\/br\/posts\/posts_210.json"},"7":{"countFrom":211,"countTo":240,"url":"\/br\/posts\/posts_240.json"},"8":{"countFrom":241,"countTo":270,"url":"\/br\/posts\/posts_270.json"},"9":{"countFrom":271,"countTo":300,"url":"\/br\/posts\/posts_300.json"},"10":{"countFrom":301,"countTo":330,"url":"\/br\/posts\/posts_330.json"},"11":{"countFrom":331,"countTo":360,"url":"\/br\/posts\/posts_360.json"},"12":{"countFrom":361,"countTo":390,"url":"\/br\/posts\/posts_390.json"},"13":{"countFrom":391,"countTo":420,"url":"\/br\/posts\/posts_420.json"},"14":{"countFrom":421,"countTo":450,"url":"\/br\/posts\/posts_450.json"},"15":{"countFrom":451,"countTo":480,"url":"\/br\/posts\/posts_480.json"},"16":{"countFrom":481,"countTo":510,"url":"\/br\/posts\/posts_510.json"},"17":{"countFrom":511,"countTo":540,"url":"\/br\/posts\/posts_540.json"},"18":{"countFrom":541,"countTo":570,"url":"\/br\/posts\/posts_570.json"},"19":{"countFrom":571,"countTo":600,"url":"\/br\/posts\/posts_600.json"},"20":{"countFrom":601,"countTo":630,"url":"\/br\/posts\/posts_630.json"},"21":{"countFrom":631,"countTo":657,"url":"\/br\/posts\/posts_last.json"}},"totalCount":657};
+  var newsData = {"data":{"0":{"countFrom":1,"countTo":6,"url":"\/br\/posts\/posts_30.json"}},"totalCount":6};
   var newsContainer = {};
   var newsCurrent = -1;
 </script>
@@ -475,6 +443,17 @@ body.custom-background { background-color: #0e0904; background-image: url("image
 <script type="text/javascript" src="js/modernizr-2.6.2.min.js"></script>
 <script type="text/javascript" src="js/jquery.colorbox-inner.js"></script>
 <script type="text/javascript" src="js/nodes.js"></script>
+<script>
+  // The legacy news carousel uses for…in over arrays; keep its helper out of that iteration.
+  if (Array.prototype.shuffle) {
+    Object.defineProperty(Array.prototype, "shuffle", {
+      value: Array.prototype.shuffle,
+      enumerable: false,
+      configurable: true,
+      writable: true
+    });
+  }
+</script>
 <script type="text/javascript" src="js/helper.js"></script>
 <script type="text/javascript" src="js/main_1.js"></script>
 <script type="text/javascript" src="js/tnkParallax.js"></script>
