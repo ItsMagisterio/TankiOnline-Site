@@ -9,10 +9,10 @@ A static website for the Tanki Online browser game, in Brazilian Portuguese. It 
 
 ## Running
 
-The site is served with `npx serve` on port 5000.
+The site is served with `npx --yes serve` on port 5000.
 
 **Workflow:** `Start application`  
-**Command:** `npx serve . -p 5000 --no-clipboard`
+**Command:** `npx --yes serve . -p 5000 --no-clipboard`
 
 ## Structure
 

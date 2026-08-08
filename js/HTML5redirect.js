@@ -1,1 +1,150 @@
-var TNKHTML5Redirect=!1,TNKHTML5={_domains:window.HTML5Domains?HTML5Domains:[],_percentage:window.HTML5Percentage?HTML5Percentage:0,_URL:!("Firefox"!==navigator.sayswho[0]&&"Chrome"!==navigator.sayswho[0]||!isChrome76_OrLarge()||!isAvailableOS())&&("us"!==cluster?"https://"+document.location.host+"/play/"+document.location.hash:"https://"+document.location.host+"/play/?config-template=https://c{server}.us.tankionline.com/config.xml&resources=https://s.us.tankionline.com&server=1"+document.location.hash),_isLanding:null,init:function(){var e,n,t,o=this;if(e=o.checkHTML5Cookie(),t=o.checkFlashCookie(),n=o.checkVisitCookie(),"fa"==globalLang&&(o.prepareURL(),o.updateLink(),Cookie.write("TNK_HTML5",!0,31536e3,"/",".tankionline.com")),!(t||n&&!e)&&o.checkBrowserCompatibility()&&o.checkWindowWidth())return o.checkDomain()||e||o.checkPercentage()?(o.prepareURL(),o.updateLink(),void Cookie.write("TNK_HTML5",!0,31536e3,"/",".tankionline.com")):void 0;Cookie.write("TNK_Flash",!0,31536e3,"/",".tankionline.com")},checkIfLanding:function(){return-1!==document.location.pathname.indexOf("/start")},prepareURL:function(){var e=selectProperServer();serversMap[e],globalLang;if("br"!=globalLang&&"pt"!=globalLang||"pt_BR","fa"==globalLang)window.location.href.split("?")[1]},updateLink:function(){var e=document.getElementById("fight");TNKHTML5Redirect=this._URL,e&&(e.href=this._URL)},checkDomain:function(){return this._domains.indexOf(document.location.hostname)>-1},checkBrowserCompatibility:function(){var e,n=navigator.userAgent;return-1!=(e=n.indexOf("Chrome"))&&parseInt(n.substring(e+7),10)>55||-1!=(e=n.indexOf("Firefox"))&&parseInt(n.substring(e+8),10)>52},checkPercentage:function(){return parseInt(100*Math.random(),10)<=this._percentage},checkHTML5Cookie:function(){return Cookie.read("TNK_HTML5")},checkFlashCookie:function(){return Cookie.read("TNK_Flash")},checkVisitCookie:function(){return Cookie.read("TNK_visit")},checkWindowWidth:function(){return window.innerWidth>1366}},Cookie={isSupported:function(){return!!navigator.cookieEnabled},exists:function(e){return document.cookie.indexOf(e+"=")+1},write:function(e,n,t,o,i,r){t instanceof Date?t=t.toGMTString():"number"==typeof t&&(t=new Date(+new Date+1e3*t).toGMTString());var a,c,s=[e+"="+encodeURIComponent(n)];for(c in a={expires:t,path:o,domain:i})a[c]&&s.push(c+"="+a[c]);return r&&s.push("secure"),document.cookie=s.join(";"),!0},read:function(e){var n=document.cookie,t=this.exists(e);return t?decodeURIComponent(n.substring(t+=e.length,(n.indexOf(";",t)+1||n.length+1)-1)):""},remove:function(e,n,t){return this.exists(e)&&this.write(e,"",new Date(0),n,t)}};TNKHTML5.init();
+(function () {
+    "use strict";
+
+    var browser = navigator.sayswho && navigator.sayswho[0];
+    var userAgent = navigator.userAgent || "";
+    var isChrome = /Chrome\/(\d+)/.exec(userAgent);
+    var isFirefox = /Firefox\/(\d+)/.exec(userAgent);
+    var supportsModernBrowser =
+        (isChrome && parseInt(isChrome[1], 10) > 55) ||
+        (isFirefox && parseInt(isFirefox[1], 10) > 52);
+    var supportsHtml5Game = !!(
+        supportsModernBrowser &&
+        window.innerWidth > 1366 &&
+        (!window.isAvailableOS || window.isAvailableOS())
+    );
+    var clusterName = window.cluster || "eu";
+    var redirectUrl = supportsHtml5Game
+        ? (clusterName !== "us"
+            ? "https://" + document.location.host + "/play/" + document.location.hash
+            : "https://" + document.location.host +
+              "/play/?config-template=https://c{server}.us.tankionline.com/config.xml" +
+              "&resources=https://s.us.tankionline.com&server=1" +
+              document.location.hash)
+        : false;
+
+    window.TNKHTML5Redirect = false;
+    window.TNKHTML5 = {
+        _domains: window.HTML5Domains || [],
+        _percentage: window.HTML5Percentage || 0,
+        _URL: redirectUrl,
+        _isLanding: null,
+
+        init: function () {
+            var html5Cookie = this.checkHTML5Cookie();
+            var flashCookie = this.checkFlashCookie();
+            var visitCookie = this.checkVisitCookie();
+            var shouldRedirect = !flashCookie && !(visitCookie && !html5Cookie);
+
+            if (window.globalLang === "fa") {
+                this.prepareURL();
+                this.updateLink();
+                Cookie.write("TNK_HTML5", true, 31536000, "/", ".tankionline.com");
+                return;
+            }
+
+            if (shouldRedirect && this.checkBrowserCompatibility() && this.checkWindowWidth() &&
+                (this.checkDomain() || html5Cookie || this.checkPercentage())) {
+                this.prepareURL();
+                this.updateLink();
+                Cookie.write("TNK_HTML5", true, 31536000, "/", ".tankionline.com");
+            } else {
+                Cookie.write("TNK_Flash", true, 31536000, "/", ".tankionline.com");
+            }
+        },
+
+        checkIfLanding: function () {
+            return document.location.pathname.indexOf("/start") !== -1;
+        },
+
+        prepareURL: function () {
+            if (typeof window.selectProperServer !== "function" || !this._URL) {
+                return;
+            }
+            window.selectProperServer();
+        },
+
+        updateLink: function () {
+            window.TNKHTML5Redirect = this._URL;
+            var fightLink = document.getElementById("fight");
+            if (fightLink && this._URL) {
+                fightLink.href = this._URL;
+            }
+        },
+
+        checkDomain: function () {
+            return this._domains.indexOf(document.location.hostname) > -1;
+        },
+
+        checkBrowserCompatibility: function () {
+            return !!supportsModernBrowser;
+        },
+
+        checkPercentage: function () {
+            return parseInt(100 * Math.random(), 10) <= this._percentage;
+        },
+
+        checkHTML5Cookie: function () {
+            return Cookie.read("TNK_HTML5");
+        },
+
+        checkFlashCookie: function () {
+            return Cookie.read("TNK_Flash");
+        },
+
+        checkVisitCookie: function () {
+            return Cookie.read("TNK_visit");
+        },
+
+        checkWindowWidth: function () {
+            return window.innerWidth > 1366;
+        }
+    };
+
+    var Cookie = {
+        isSupported: function () {
+            return !!navigator.cookieEnabled;
+        },
+
+        exists: function (name) {
+            return document.cookie.indexOf(name + "=") + 1;
+        },
+
+        write: function (name, value, expires, path, domain, secure) {
+            if (!this.isSupported()) {
+                return false;
+            }
+            if (expires instanceof Date) {
+                expires = expires.toGMTString();
+            } else if (typeof expires === "number") {
+                expires = new Date(+new Date() + 1000 * expires).toGMTString();
+            }
+            var cookie = [name + "=" + encodeURIComponent(value)];
+            var attributes = { expires: expires, path: path, domain: domain };
+            for (var key in attributes) {
+                if (attributes[key]) {
+                    cookie.push(key + "=" + attributes[key]);
+                }
+            }
+            if (secure) {
+                cookie.push("secure");
+            }
+            document.cookie = cookie.join(";");
+            return true;
+        },
+
+        read: function (name) {
+            var position = this.exists(name);
+            if (!position) {
+                return "";
+            }
+            var end = document.cookie.indexOf(";", position);
+            return decodeURIComponent(document.cookie.substring(
+                position + name.length,
+                (end + 1 || document.cookie.length + 1) - 1
+            ));
+        }
+    };
+
+    window.TNKHTML5.init();
+}());
