@@ -723,8 +723,9 @@ h2.internal__media {
   width: 100%;
   height: 50px;
   box-shadow: 0 0 12px 12px rgba(0, 0, 0, 0.25);
-  /* position: relative;*/
-  /* z-index: 100;*/
+  /* Keep the language menu above the game controls below the top bar. */
+  position: relative;
+  z-index: 1000;
 }
 .top-line__nav {
   float: left;
