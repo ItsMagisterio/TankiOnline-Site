@@ -1,0 +1,1 @@
+var HTML5Domains=["web-temp.tankionline.com","tntgames.tankionline.com"],HTML5Percentage=5;
