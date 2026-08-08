@@ -9,6 +9,15 @@
     var number = picker.querySelector(".server-picker__number");
     var options = picker.querySelectorAll(".server-picker__option");
 
+    function updateSelectedServer(option) {
+      number.textContent = option.getAttribute("data-server");
+      Array.prototype.forEach.call(options, function (item) {
+        var selected = item === option;
+        item.classList.toggle("is-selected", selected);
+        item.setAttribute("aria-selected", String(selected));
+      });
+    }
+
     function closePicker() {
       picker.classList.remove("is-open");
       control.setAttribute("aria-expanded", "false");
@@ -33,12 +42,7 @@
 
     Array.prototype.forEach.call(options, function (option) {
       option.addEventListener("click", function () {
-        number.textContent = option.getAttribute("data-server");
-        Array.prototype.forEach.call(options, function (item) {
-          var selected = item === option;
-          item.classList.toggle("is-selected", selected);
-          item.setAttribute("aria-selected", String(selected));
-        });
+        updateSelectedServer(option);
         closePicker();
       });
     });

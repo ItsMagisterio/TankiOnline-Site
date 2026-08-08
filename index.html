@@ -151,6 +151,8 @@ body.custom-background { background-color: #0e0904; background-image: url("image
                 </nav>
 
                 
+            <a class="top-line__question" href="http://help.tankionline.com/pt-br/" aria-label="Ajuda"></a>
+
             <div id="langs" class="top-line__langs">
                 <div class="custom-select js-custom-select">
                     <div class="custom-select__arrow sprite sprite_custom-select-arrow"></div>
@@ -203,9 +205,18 @@ body.custom-background { background-color: #0e0904; background-image: url("image
                         <span class="server-picker__arrow" aria-hidden="true"></span>
                     </div>
                     <div class="server-picker__options" role="listbox" aria-label="Choose a server">
-                        <button class="server-picker__option is-selected" type="button" role="option" aria-selected="true" data-server="1">Server 1</button>
-                        <button class="server-picker__option" type="button" role="option" aria-selected="false" data-server="2">Server 2</button>
-                        <button class="server-picker__option" type="button" role="option" aria-selected="false" data-server="3">Server 3</button>
+                        <button class="server-picker__option is-selected" type="button" role="option" aria-selected="true" data-server="1" data-status="online">
+                            <span>Server 1</span>
+                            <span class="server-picker__option-status is-online">Online</span>
+                        </button>
+                        <button class="server-picker__option" type="button" role="option" aria-selected="false" data-server="2" data-status="offline">
+                            <span>Server 2</span>
+                            <span class="server-picker__option-status is-offline">Offline</span>
+                        </button>
+                        <button class="server-picker__option" type="button" role="option" aria-selected="false" data-server="3" data-status="offline">
+                            <span>Server 3</span>
+                            <span class="server-picker__option-status is-offline">Offline</span>
+                        </button>
                     </div>
                 </div>
 
