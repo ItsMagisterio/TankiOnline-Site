@@ -1,0 +1,694 @@
+[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K[32m[39m
+[32m   ┌────────────────────────────────────────┐[39m
+   [32m│[39m                                        [32m│[39m
+   [32m│[39m   [32mServing![39m                             [32m│[39m
+   [32m│[39m                                        [32m│[39m
+   [32m│[39m   [1m- Local:[22m    http://0.0.0.0:5000      [32m│[39m
+   [32m│[39m   [1m- Network:[22m  http://172.24.0.2:5000   [32m│[39m
+   [32m│[39m                                        [32m│[39m
+[32m   └────────────────────────────────────────┘[39m
+[32m[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:13:54 AM[22m [33m127.0.0.1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:13:54 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 15 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:13:54 AM[22m [33m127.0.0.1[39m [36mGET /css/fontgoogle.css[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:13:54 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:13:54 AM[22m [33m127.0.0.1[39m [36mGET /css/normalize.min.css[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:13:54 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:13:55 AM[22m [33m127.0.0.1[39m [36mGET /css/local_pt.css[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:13:55 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:01 AM[22m [33m127.0.0.1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:01 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:01 AM[22m [33m127.0.0.1[39m [36mGET /css/fontgoogle.css[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:01 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:01 AM[22m [33m127.0.0.1[39m [36mGET /css/normalize.min.css[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:01 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:01 AM[22m [33m127.0.0.1[39m [36mGET /css/local_pt.css[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:01 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:02 AM[22m [33m127.0.0.1[39m [36mGET /css/style.css[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:02 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:02 AM[22m [33m127.0.0.1[39m [36mGET /css/colorbox.css[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:02 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:02 AM[22m [33m127.0.0.1[39m [36mGET /images/logo1.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:02 AM[22m [33m127.0.0.1[39m [36mGET /css/flags.css[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:02 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:02 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:02 AM[22m [33m127.0.0.1[39m [36mGET /js/main.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:02 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:02 AM[22m [33m127.0.0.1[39m [36mGET /images/tech_support.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:02 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:02 AM[22m [33m127.0.0.1[39m [36mGET /images/migracao_banner.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:02 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:02 AM[22m [33m127.0.0.1[39m [36mGET /fonts/jizaRExUiTo99u79D0KExQ.woff2[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:02 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:02 AM[22m [33m127.0.0.1[39m [36mGET /images/top_line.jpg[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:02 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:02 AM[22m [33m127.0.0.1[39m [36mGET /attached_assets/background_1786168978160.jpg[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:02 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:02 AM[22m [33m127.0.0.1[39m [36mGET /images/sprite_pt.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:02 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:02 AM[22m [33m127.0.0.1[39m [36mGET /images/sprite_ru.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:02 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:02 AM[22m [33m127.0.0.1[39m [36mGET /images/flags3.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:02 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:02 AM[22m [33m127.0.0.1[39m [36mGET /js/jquery-1.8.3.min.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:02 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:02 AM[22m [33m127.0.0.1[39m [36mGET /images/corners.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:02 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:02 AM[22m [33m127.0.0.1[39m [36mGET /images/discord_min.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:02 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:02 AM[22m [33m127.0.0.1[39m [36mGET /images/migracao_redes-326x216.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:02 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:02 AM[22m [33m127.0.0.1[39m [36mGET /attached_assets/discord_1786168919369.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:02 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:02 AM[22m [33m127.0.0.1[39m [36mGET /js/modernizr-2.6.2.min.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:02 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:02 AM[22m [33m127.0.0.1[39m [36mGET /js/jquery.colorbox-inner.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:02 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:02 AM[22m [33m127.0.0.1[39m [36mGET /js/nodes.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:02 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:02 AM[22m [33m127.0.0.1[39m [36mGET /js/helper.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:02 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:02 AM[22m [33m127.0.0.1[39m [36mGET /js/main_1.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:02 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:03 AM[22m [33m127.0.0.1[39m [36mGET /js/server-picker.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:03 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:03 AM[22m [33m127.0.0.1[39m [36mGET /js/tnkParallax.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:03 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:03 AM[22m [33m127.0.0.1[39m [36mGET /js/wp-embed.min.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:03 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:03 AM[22m [33m127.0.0.1[39m [36mGET /js/HTML5Domains.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:03 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:03 AM[22m [33m127.0.0.1[39m [36mGET /js/HTML5redirect.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:03 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:03 AM[22m [33m127.0.0.1[39m [36mGET /js/dc.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:03 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:03 AM[22m [33m127.0.0.1[39m [36mGET /js/wp-emoji-release.min.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:03 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:03 AM[22m [33m127.0.0.1[39m [36mGET /attached_assets/telegram_1786168924893.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:03 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:03 AM[22m [33m127.0.0.1[39m [36mGET /attached_assets/twitch_1786168930604.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:03 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:03 AM[22m [33m127.0.0.1[39m [36mGET /attached_assets/youtube_1786168936956.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:03 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:03 AM[22m [33m127.0.0.1[39m [36mGET /js/watch.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:03 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:03 AM[22m [33m127.0.0.1[39m [36mGET /images/sc.gif[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:03 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:03 AM[22m [33m127.0.0.1[39m [36mGET /wp-includes/js/wp-emoji-release.min.js?ver=4.8.22[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:03 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:03 AM[22m [33m127.0.0.1[39m [36mGET /images/loading.gif[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:03 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:03 AM[22m [33m127.0.0.1[39m [36mGET /s/status_us.js?rnd=0.8656547118036173[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:03 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:03 AM[22m [33m127.0.0.1[39m [36mGET /br/posts/posts_30.json?0.820486691818376[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:03 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:03 AM[22m [33m127.0.0.1[39m [36mGET /s/status_us.js?rnd=0.9926355291799924[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:03 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:03 AM[22m [33m127.0.0.1[39m [36mGET /s/status_us.js?rnd=0.9302757126656416[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:03 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:03 AM[22m [33m127.0.0.1[39m [36mGET /fonts/jizfRExUiTo99u79B_mh0O6tLQ.woff2[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:03 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:14 AM[22m [33m127.0.0.1[39m [36mGET /s/status_us.js?rnd=0.22153198973896504[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:14 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:24 AM[22m [33m127.0.0.1[39m [36mGET /s/status_us.js?rnd=0.6334337879198895[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:24 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:34 AM[22m [33m127.0.0.1[39m [36mGET /s/status_us.js?rnd=0.8387507109252472[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:34 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:44 AM[22m [33m127.0.0.1[39m [36mGET /s/status_us.js?rnd=0.9459462582589182[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:44 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:54 AM[22m [33m127.0.0.1[39m [36mGET /s/status_us.js?rnd=0.27891425967407246[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:14:54 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:15:04 AM[22m [33m127.0.0.1[39m [36mGET /s/status_us.js?rnd=0.9245618029737632[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:15:04 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:12 AM[22m [33m127.0.0.1[39m [36mGET /s/status_us.js?rnd=0.0334651136893358[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:12 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:18 AM[22m [33m127.0.0.1[39m [36mGET /s/status_us.js?rnd=0.6466879640358412[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:18 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:23 AM[22m [33m127.0.0.1[39m [36mGET /s/status_us.js?rnd=0.3892999832016262[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:23 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:32 AM[22m [33m127.0.0.1[39m [36mGET /s/status_us.js?rnd=0.6942759785503622[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:32 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:33 AM[22m [33m127.0.0.1[39m [36mGET /s/status_us.js?rnd=0.25968889255687666[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:33 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:43 AM[22m [33m127.0.0.1[39m [36mGET /s/status_us.js?rnd=0.5218234941265149[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:43 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:48 AM[22m [33m127.0.0.1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:48 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:49 AM[22m [33m127.0.0.1[39m [36mGET /css/fontgoogle.css[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:49 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:49 AM[22m [33m127.0.0.1[39m [36mGET /css/normalize.min.css[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:49 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:49 AM[22m [33m127.0.0.1[39m [36mGET /css/local_pt.css[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:49 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:49 AM[22m [33m127.0.0.1[39m [36mGET /css/style.css[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:49 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:49 AM[22m [33m127.0.0.1[39m [36mGET /css/colorbox.css[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:49 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:49 AM[22m [33m127.0.0.1[39m [36mGET /css/flags.css[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:49 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:49 AM[22m [33m127.0.0.1[39m [36mGET /js/main.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:49 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:49 AM[22m [33m127.0.0.1[39m [36mGET /images/logo1.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:49 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:49 AM[22m [33m127.0.0.1[39m [36mGET /js/dc.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:49 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:49 AM[22m [33m127.0.0.1[39m [36mGET /images/tech_support.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:49 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:49 AM[22m [33m127.0.0.1[39m [36mGET /images/migracao_banner.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:49 AM[22m [33m127.0.0.1[39m [36mGET /images/migracao_redes-326x216.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:49 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:49 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:49 AM[22m [33m127.0.0.1[39m [36mGET /fonts/jizaRExUiTo99u79D0KExQ.woff2[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:49 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:49 AM[22m [33m127.0.0.1[39m [36mGET /images/flags3.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:49 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:49 AM[22m [33m127.0.0.1[39m [36mGET /images/top_line.jpg[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:49 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:49 AM[22m [33m127.0.0.1[39m [36mGET /images/sprite_pt.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:49 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:49 AM[22m [33m127.0.0.1[39m [36mGET /attached_assets/background_1786168978160.jpg[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:49 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:49 AM[22m [33m127.0.0.1[39m [36mGET /images/sprite_ru.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:49 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:50 AM[22m [33m127.0.0.1[39m [36mGET /js/jquery-1.8.3.min.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:50 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:50 AM[22m [33m127.0.0.1[39m [36mGET /images/corners.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:50 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:50 AM[22m [33m127.0.0.1[39m [36mGET /images/discord_min.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:50 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:50 AM[22m [33m127.0.0.1[39m [36mGET /attached_assets/discord_1786168919369.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:50 AM[22m [33m127.0.0.1[39m [36mGET /js/modernizr-2.6.2.min.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:50 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:50 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:50 AM[22m [33m127.0.0.1[39m [36mGET /js/jquery.colorbox-inner.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:50 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:50 AM[22m [33m127.0.0.1[39m [36mGET /js/nodes.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:50 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:50 AM[22m [33m127.0.0.1[39m [36mGET /js/helper.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:50 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:50 AM[22m [33m127.0.0.1[39m [36mGET /js/main_1.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:50 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:50 AM[22m [33m127.0.0.1[39m [36mGET /js/server-picker.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:50 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:50 AM[22m [33m127.0.0.1[39m [36mGET /js/tnkParallax.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:50 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:50 AM[22m [33m127.0.0.1[39m [36mGET /js/wp-embed.min.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:50 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:50 AM[22m [33m127.0.0.1[39m [36mGET /js/HTML5Domains.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:50 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:50 AM[22m [33m127.0.0.1[39m [36mGET /js/HTML5redirect.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:50 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:50 AM[22m [33m127.0.0.1[39m [36mGET /js/wp-emoji-release.min.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:50 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:50 AM[22m [33m127.0.0.1[39m [36mGET /attached_assets/telegram_1786168924893.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:50 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:50 AM[22m [33m127.0.0.1[39m [36mGET /attached_assets/twitch_1786168930604.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:50 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:50 AM[22m [33m127.0.0.1[39m [36mGET /attached_assets/youtube_1786168936956.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:50 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:50 AM[22m [33m127.0.0.1[39m [36mGET /js/watch.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:50 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:50 AM[22m [33m127.0.0.1[39m [36mGET /images/sc.gif[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:50 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:50 AM[22m [33m127.0.0.1[39m [36mGET /wp-includes/js/wp-emoji-release.min.js?ver=4.8.22[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:50 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:50 AM[22m [33m127.0.0.1[39m [36mGET /images/loading.gif[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:50 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:50 AM[22m [33m127.0.0.1[39m [36mGET /s/status_us.js?rnd=0.7573530862755335[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:50 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:50 AM[22m [33m127.0.0.1[39m [36mGET /br/posts/posts_30.json?0.9614449677526633[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:50 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:50 AM[22m [33m127.0.0.1[39m [36mGET /s/status_us.js?rnd=0.8582363828109023[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:50 AM[22m [33m127.0.0.1[39m [36mGET /s/status_us.js?rnd=0.9506182781169069[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:50 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:50 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:50 AM[22m [33m127.0.0.1[39m [36mGET /fonts/jizfRExUiTo99u79B_mh0O6tLQ.woff2[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:50 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:51 AM[22m [33m127.0.0.1[39m [36mGET /favicon.ico[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:51 AM[22m [33m127.0.0.1[39m [31mReturned 404 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:54 AM[22m [33m127.0.0.1[39m [36mGET /s/status_us.js?rnd=0.11252523776249124[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:16:54 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:17:01 AM[22m [33m127.0.0.1[39m [36mGET /s/status_us.js?rnd=0.06311727300788461[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:17:01 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:17:03 AM[22m [33m127.0.0.1[39m [36mGET /s/status_us.js?rnd=0.8317503794486375[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:17:03 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:17:11 AM[22m [33m127.0.0.1[39m [36mGET /s/status_us.js?rnd=0.972324329322062[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:17:11 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:17:13 AM[22m [33m127.0.0.1[39m [36mGET /s/status_us.js?rnd=0.04645479106662043[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:17:13 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:17:20 AM[22m [33m127.0.0.1[39m [36mGET /s/status_us.js?rnd=0.286633672241007[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:17:20 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:17:24 AM[22m [33m127.0.0.1[39m [36mGET /s/status_us.js?rnd=0.3273092852959466[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:17:24 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:17:31 AM[22m [33m127.0.0.1[39m [36mGET /s/status_us.js?rnd=0.7292907002881293[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:17:31 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:17:33 AM[22m [33m127.0.0.1[39m [36mGET /s/status_us.js?rnd=0.31280054675770996[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:17:33 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:17:41 AM[22m [33m127.0.0.1[39m [36mGET /s/status_us.js?rnd=0.9579416410148174[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:17:41 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:17:44 AM[22m [33m127.0.0.1[39m [36mGET /s/status_us.js?rnd=0.19641481847099973[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:17:44 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:17:51 AM[22m [33m127.0.0.1[39m [36mGET /s/status_us.js?rnd=0.5352598374902429[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:17:51 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:17:54 AM[22m [33m127.0.0.1[39m [36mGET /s/status_us.js?rnd=0.21272591419390574[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:17:54 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:01 AM[22m [33m127.0.0.1[39m [36mGET /s/status_us.js?rnd=0.8045756930947416[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:01 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:03 AM[22m [33m127.0.0.1[39m [36mGET /s/status_us.js?rnd=0.1919126238864155[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:03 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [36mGET /css/fontgoogle.css[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [36mGET /css/normalize.min.css[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [36mGET /css/local_pt.css[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [36mGET /css/style.css[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 4 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [36mGET /css/colorbox.css[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [36mGET /css/flags.css[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 7 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [36mGET /js/dc.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [36mGET /images/beta.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [36mGET /images/logo1.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [36mGET /js/main.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [36mGET /images/tech_support.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [36mGET /images/migracao_banner.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [36mGET /images/migracao_redes-326x216.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [36mGET /js/jquery-1.8.3.min.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [36mGET /js/modernizr-2.6.2.min.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [36mGET /js/jquery.colorbox-inner.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [36mGET /js/nodes.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [36mGET /js/helper.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [36mGET /js/main_1.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 4 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [36mGET /js/server-picker.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [36mGET /js/tnkParallax.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [36mGET /js/wp-embed.min.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [36mGET /js/HTML5Domains.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [36mGET /js/HTML5redirect.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [36mGET /js/wp-emoji-release.min.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [36mGET /attached_assets/discord_1786168919369.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [36mGET /attached_assets/telegram_1786168924893.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [36mGET /attached_assets/twitch_1786168930604.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [36mGET /attached_assets/youtube_1786168936956.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [36mGET /js/watch.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [36mGET /images/sc.gif[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [36mGET /attached_assets/background_1786168978160.jpg[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [36mGET /images/top_line.jpg[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [36mGET /images/sprite_pt.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [36mGET /images/sprite_ru.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [36mGET /images/flags3.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 4 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [36mGET /fonts/jizaRExUiTo99u79D0KExQ.woff2[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [36mGET /images/corners.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [36mGET /images/loading.gif[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [36mGET /s/status_us.js?rnd=0.30682919913616014[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [36mGET /br/posts/posts_30.json?0.8600576384167433[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [36mGET /s/status_us.js?rnd=0.6705082920502748[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [36mGET /s/status_us.js?rnd=0.648244002124052[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [36mGET /fonts/jizfRExUiTo99u79B_mh0O6tLQ.woff2[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:04 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:05 AM[22m [33m127.0.0.1[39m [36mGET /favicon.ico[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:05 AM[22m [33m127.0.0.1[39m [31mReturned 404 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:06 AM[22m [33m127.0.0.1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:06 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:06 AM[22m [33m127.0.0.1[39m [36mGET /css/fontgoogle.css[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:06 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:06 AM[22m [33m127.0.0.1[39m [36mGET /css/normalize.min.css[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:06 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:06 AM[22m [33m127.0.0.1[39m [36mGET /css/local_pt.css[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:06 AM[22m [33m127.0.0.1[39m [36mGET /js/dc.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:06 AM[22m [33m127.0.0.1[39m [36mGET /css/style.css[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:06 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:06 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:06 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:06 AM[22m [33m127.0.0.1[39m [36mGET /css/colorbox.css[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:06 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:06 AM[22m [33m127.0.0.1[39m [36mGET /css/flags.css[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:06 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:06 AM[22m [33m127.0.0.1[39m [36mGET /images/beta.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:06 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:06 AM[22m [33m127.0.0.1[39m [36mGET /images/logo1.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:06 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:06 AM[22m [33m127.0.0.1[39m [36mGET /js/main.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:06 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:06 AM[22m [33m127.0.0.1[39m [36mGET /images/tech_support.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:06 AM[22m [33m127.0.0.1[39m [36mGET /images/migracao_redes-326x216.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:06 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:06 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:06 AM[22m [33m127.0.0.1[39m [36mGET /images/migracao_banner.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:06 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:06 AM[22m [33m127.0.0.1[39m [36mGET /js/jquery-1.8.3.min.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:06 AM[22m [33m127.0.0.1[39m [36mGET /attached_assets/background_1786168978160.jpg[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:06 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:06 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:06 AM[22m [33m127.0.0.1[39m [36mGET /images/top_line.jpg[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:06 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:06 AM[22m [33m127.0.0.1[39m [36mGET /images/sprite_ru.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:06 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:06 AM[22m [33m127.0.0.1[39m [36mGET /images/discord_min.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:06 AM[22m [33m127.0.0.1[39m [36mGET /images/corners.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:06 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:06 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:06 AM[22m [33m127.0.0.1[39m [36mGET /images/flags3.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:06 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:06 AM[22m [33m127.0.0.1[39m [36mGET /js/modernizr-2.6.2.min.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:06 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:06 AM[22m [33m127.0.0.1[39m [36mGET /js/jquery.colorbox-inner.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:06 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:06 AM[22m [33m127.0.0.1[39m [36mGET /js/nodes.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:06 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:06 AM[22m [33m127.0.0.1[39m [36mGET /js/helper.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:06 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:06 AM[22m [33m127.0.0.1[39m [36mGET /js/main_1.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:06 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:06 AM[22m [33m127.0.0.1[39m [36mGET /js/server-picker.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:06 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:06 AM[22m [33m127.0.0.1[39m [36mGET /js/tnkParallax.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:06 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:06 AM[22m [33m127.0.0.1[39m [36mGET /js/wp-embed.min.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:06 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:06 AM[22m [33m127.0.0.1[39m [36mGET /js/HTML5Domains.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:06 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:06 AM[22m [33m127.0.0.1[39m [36mGET /js/HTML5redirect.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:06 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:06 AM[22m [33m127.0.0.1[39m [36mGET /js/wp-emoji-release.min.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:06 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:06 AM[22m [33m127.0.0.1[39m [36mGET /attached_assets/discord_1786168919369.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:06 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:06 AM[22m [33m127.0.0.1[39m [36mGET /attached_assets/telegram_1786168924893.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:06 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:07 AM[22m [33m127.0.0.1[39m [36mGET /attached_assets/twitch_1786168930604.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:07 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:07 AM[22m [33m127.0.0.1[39m [36mGET /attached_assets/youtube_1786168936956.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:07 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:07 AM[22m [33m127.0.0.1[39m [36mGET /js/watch.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:07 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:07 AM[22m [33m127.0.0.1[39m [36mGET /images/sc.gif[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:07 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:07 AM[22m [33m127.0.0.1[39m [36mGET /wp-includes/js/wp-emoji-release.min.js?ver=4.8.22[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:07 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:07 AM[22m [33m127.0.0.1[39m [36mGET /images/loading.gif[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:07 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:07 AM[22m [33m127.0.0.1[39m [36mGET /s/status_us.js?rnd=0.6310247406858965[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:07 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:07 AM[22m [33m127.0.0.1[39m [36mGET /br/posts/posts_30.json?0.7333417019800799[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:07 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:07 AM[22m [33m127.0.0.1[39m [36mGET /s/status_us.js?rnd=0.7902353540852801[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:07 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:07 AM[22m [33m127.0.0.1[39m [36mGET /s/status_us.js?rnd=0.5360491055299702[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:07 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:14 AM[22m [33m127.0.0.1[39m [36mGET /s/status_us.js?rnd=0.3005324174642775[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:14 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:17 AM[22m [33m127.0.0.1[39m [36mGET /s/status_us.js?rnd=0.6171056592799354[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:17 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:20 AM[22m [33m127.0.0.1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:20 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:20 AM[22m [33m127.0.0.1[39m [36mGET /css/fontgoogle.css[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:20 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:20 AM[22m [33m127.0.0.1[39m [36mGET /css/local_pt.css[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:20 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:20 AM[22m [33m127.0.0.1[39m [36mGET /css/colorbox.css[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:20 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:20 AM[22m [33m127.0.0.1[39m [36mGET /css/style.css[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:20 AM[22m [33m127.0.0.1[39m [36mGET /css/normalize.min.css[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:20 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:20 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:20 AM[22m [33m127.0.0.1[39m [36mGET /css/flags.css[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:20 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:20 AM[22m [33m127.0.0.1[39m [36mGET /images/beta.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:20 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:20 AM[22m [33m127.0.0.1[39m [36mGET /images/logo1.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:20 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:20 AM[22m [33m127.0.0.1[39m [36mGET /js/main.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:20 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:20 AM[22m [33m127.0.0.1[39m [36mGET /images/tech_support.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:20 AM[22m [33m127.0.0.1[39m [36mGET /images/migracao_banner.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:20 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:20 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:20 AM[22m [33m127.0.0.1[39m [36mGET /images/migracao_redes-326x216.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:20 AM[22m [33m127.0.0.1[39m [36mGET /attached_assets/background_1786168978160.jpg[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:20 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:20 AM[22m [33m127.0.0.1[39m [36mGET /js/jquery-1.8.3.min.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:20 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:20 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:20 AM[22m [33m127.0.0.1[39m [36mGET /images/top_line.jpg[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:20 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:20 AM[22m [33m127.0.0.1[39m [36mGET /images/sprite_ru.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:20 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:20 AM[22m [33m127.0.0.1[39m [36mGET /images/flags3.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:20 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:20 AM[22m [33m127.0.0.1[39m [36mGET /images/corners.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:20 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:20 AM[22m [33m127.0.0.1[39m [36mGET /images/loading.gif[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:20 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:20 AM[22m [33m127.0.0.1[39m [36mGET /js/modernizr-2.6.2.min.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:20 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:20 AM[22m [33m127.0.0.1[39m [36mGET /js/jquery.colorbox-inner.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:20 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:21 AM[22m [33m127.0.0.1[39m [36mGET /js/nodes.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:21 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:21 AM[22m [33m127.0.0.1[39m [36mGET /js/helper.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:21 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:21 AM[22m [33m127.0.0.1[39m [36mGET /js/main_1.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:21 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:21 AM[22m [33m127.0.0.1[39m [36mGET /js/server-picker.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:21 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:21 AM[22m [33m127.0.0.1[39m [36mGET /js/tnkParallax.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:21 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:21 AM[22m [33m127.0.0.1[39m [36mGET /js/wp-embed.min.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:21 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:21 AM[22m [33m127.0.0.1[39m [36mGET /js/HTML5Domains.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:21 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:21 AM[22m [33m127.0.0.1[39m [36mGET /js/HTML5redirect.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:21 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:21 AM[22m [33m127.0.0.1[39m [36mGET /js/dc.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:21 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:21 AM[22m [33m127.0.0.1[39m [36mGET /js/wp-emoji-release.min.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:21 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:21 AM[22m [33m127.0.0.1[39m [36mGET /attached_assets/discord_1786168919369.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:21 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:21 AM[22m [33m127.0.0.1[39m [36mGET /attached_assets/telegram_1786168924893.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:21 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:21 AM[22m [33m127.0.0.1[39m [36mGET /attached_assets/twitch_1786168930604.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:21 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:21 AM[22m [33m127.0.0.1[39m [36mGET /attached_assets/youtube_1786168936956.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:21 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:21 AM[22m [33m127.0.0.1[39m [36mGET /js/watch.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:21 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:21 AM[22m [33m127.0.0.1[39m [36mGET /images/sc.gif[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:21 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:21 AM[22m [33m127.0.0.1[39m [36mGET /wp-includes/js/wp-emoji-release.min.js?ver=4.8.22[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:21 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:21 AM[22m [33m127.0.0.1[39m [36mGET /s/status_us.js?rnd=0.8439095723592978[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:21 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:21 AM[22m [33m127.0.0.1[39m [36mGET /br/posts/posts_30.json?0.6684250643765002[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:21 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:21 AM[22m [33m127.0.0.1[39m [36mGET /s/status_us.js?rnd=0.0923707520396011[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:21 AM[22m [33m127.0.0.1[39m [36mGET /s/status_us.js?rnd=0.5394705155548754[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:21 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:21 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:27 AM[22m [33m127.0.0.1[39m [36mGET /s/status_us.js?rnd=0.46984841900371455[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:27 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:31 AM[22m [33m127.0.0.1[39m [36mGET /s/status_us.js?rnd=0.47271247466189326[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:31 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 4 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:36 AM[22m [33m127.0.0.1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:36 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:37 AM[22m [33m127.0.0.1[39m [36mGET /css/fontgoogle.css[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:37 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:37 AM[22m [33m127.0.0.1[39m [36mGET /js/dc.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:37 AM[22m [33m127.0.0.1[39m [36mGET /css/normalize.min.css[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:37 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:37 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:37 AM[22m [33m127.0.0.1[39m [36mGET /css/colorbox.css[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:37 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:37 AM[22m [33m127.0.0.1[39m [36mGET /css/local_pt.css[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:37 AM[22m [33m127.0.0.1[39m [36mGET /css/style.css[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:37 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:37 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:37 AM[22m [33m127.0.0.1[39m [36mGET /css/flags.css[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:37 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:37 AM[22m [33m127.0.0.1[39m [36mGET /images/beta.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:37 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:37 AM[22m [33m127.0.0.1[39m [36mGET /images/logo1.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:37 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:37 AM[22m [33m127.0.0.1[39m [36mGET /js/main.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:37 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:37 AM[22m [33m127.0.0.1[39m [36mGET /images/migracao_redes-326x216.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:37 AM[22m [33m127.0.0.1[39m [36mGET /images/tech_support.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:37 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:37 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:37 AM[22m [33m127.0.0.1[39m [36mGET /js/jquery-1.8.3.min.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:37 AM[22m [33m127.0.0.1[39m [36mGET /images/migracao_banner.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:37 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:37 AM[22m [33m127.0.0.1[39m [36mGET /js/modernizr-2.6.2.min.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:37 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:37 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:37 AM[22m [33m127.0.0.1[39m [36mGET /js/jquery.colorbox-inner.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:37 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:37 AM[22m [33m127.0.0.1[39m [36mGET /js/nodes.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:37 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:37 AM[22m [33m127.0.0.1[39m [36mGET /js/helper.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:37 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:37 AM[22m [33m127.0.0.1[39m [36mGET /js/main_1.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:37 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:37 AM[22m [33m127.0.0.1[39m [36mGET /js/server-picker.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:37 AM[22m [33m127.0.0.1[39m [36mGET /js/tnkParallax.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:37 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:37 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:37 AM[22m [33m127.0.0.1[39m [36mGET /images/discord_min.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:37 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:37 AM[22m [33m127.0.0.1[39m [36mGET /js/wp-embed.min.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:37 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:37 AM[22m [33m127.0.0.1[39m [36mGET /js/HTML5Domains.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:37 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:37 AM[22m [33m127.0.0.1[39m [36mGET /js/HTML5redirect.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:37 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:37 AM[22m [33m127.0.0.1[39m [36mGET /js/wp-emoji-release.min.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:37 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:37 AM[22m [33m127.0.0.1[39m [36mGET /attached_assets/discord_1786168919369.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:37 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:37 AM[22m [33m127.0.0.1[39m [36mGET /attached_assets/telegram_1786168924893.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:37 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:37 AM[22m [33m127.0.0.1[39m [36mGET /attached_assets/twitch_1786168930604.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:37 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:37 AM[22m [33m127.0.0.1[39m [36mGET /attached_assets/youtube_1786168936956.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:37 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:37 AM[22m [33m127.0.0.1[39m [36mGET /js/watch.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:37 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:37 AM[22m [33m127.0.0.1[39m [36mGET /images/sc.gif[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:37 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:37 AM[22m [33m127.0.0.1[39m [36mGET /wp-includes/js/wp-emoji-release.min.js?ver=4.8.22[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:37 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:38 AM[22m [33m127.0.0.1[39m [36mGET /s/status_us.js?rnd=0.045762819611292915[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:38 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:38 AM[22m [33m127.0.0.1[39m [36mGET /br/posts/posts_30.json?0.2170536393405058[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:38 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:38 AM[22m [33m127.0.0.1[39m [36mGET /s/status_us.js?rnd=0.008342745820173025[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:38 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:38 AM[22m [33m127.0.0.1[39m [36mGET /s/status_us.js?rnd=0.37128462065933066[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:38 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:42 AM[22m [33m127.0.0.1[39m [36mGET /s/status_us.js?rnd=0.27269125067799915[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:42 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:48 AM[22m [33m127.0.0.1[39m [36mGET /s/status_us.js?rnd=0.793756464157719[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:48 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:48 AM[22m [33m127.0.0.1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:48 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [36mGET /css/fontgoogle.css[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [36mGET /css/normalize.min.css[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [36mGET /js/dc.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [36mGET /css/style.css[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [36mGET /css/local_pt.css[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [36mGET /css/colorbox.css[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [36mGET /css/flags.css[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [36mGET /images/beta.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [36mGET /images/logo1.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [36mGET /js/main.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [36mGET /images/tech_support.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [36mGET /images/migracao_redes-326x216.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [36mGET /images/migracao_banner.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [36mGET /js/jquery-1.8.3.min.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [36mGET /js/modernizr-2.6.2.min.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [36mGET /js/jquery.colorbox-inner.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [36mGET /js/nodes.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [36mGET /js/helper.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [36mGET /js/main_1.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [36mGET /js/server-picker.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [36mGET /js/tnkParallax.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [36mGET /images/discord_min.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [36mGET /js/wp-embed.min.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [36mGET /js/HTML5Domains.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [36mGET /js/HTML5redirect.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [36mGET /attached_assets/discord_1786168919369.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [36mGET /js/wp-emoji-release.min.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [36mGET /attached_assets/telegram_1786168924893.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [36mGET /attached_assets/twitch_1786168930604.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [36mGET /attached_assets/youtube_1786168936956.png[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [36mGET /js/watch.js[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [36mGET /wp-includes/js/wp-emoji-release.min.js?ver=4.8.22[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [36mGET /images/sc.gif[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [36mGET /s/status_us.js?rnd=0.0383406884689631[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [36mGET /br/posts/posts_30.json?0.35654098436896864[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [36mGET /s/status_us.js?rnd=0.32177183567032985[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [36mGET /s/status_us.js?rnd=0.519814911952839[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:49 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:52 AM[22m [33m127.0.0.1[39m [36mGET /s/status_us.js?rnd=0.25857837576265696[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:52 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:59 AM[22m [33m127.0.0.1[39m [36mGET /s/status_us.js?rnd=0.13265770368452146[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:18:59 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:19:01 AM[22m [33m127.0.0.1[39m [36mGET /s/status_us.js?rnd=0.9928490101236916[39m
+[44m[1m HTTP [22m[49m [2m8/8/2026 6:19:01 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 2 ms[39m
