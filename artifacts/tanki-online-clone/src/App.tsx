@@ -1,4 +1,7 @@
 import { useState } from "react";
+import buttonGreen from "@assets/buttonGreen_1786159594596.png";
+import buttonGreenOver from "@assets/buttonGreenOver_1786159594595.png";
+import helpSprite from "@assets/Без_названия_1786160061065.png";
 
 const base = import.meta.env.BASE_URL;
 
@@ -60,9 +63,10 @@ export default function App() {
             )}
           </div>
           <button
-            className="help-button"
+            className={helpOpen ? "help-button open" : "help-button"}
             type="button"
             aria-label="Help"
+            style={{ backgroundImage: `url(${helpSprite})` }}
             onClick={() => setHelpOpen(!helpOpen)}
           >
             <span className="help-icon" aria-hidden="true" />
@@ -102,7 +106,9 @@ export default function App() {
               window.setTimeout(() => setFightState(false), 1800);
             }}
           >
-            {fightState ? "LOADING..." : "FIGHT!"}
+            <img className="fight-button-bg" src={buttonGreen} alt="" />
+            <img className="fight-button-bg fight-button-bg-over" src={buttonGreenOver} alt="" />
+            <span>{fightState ? "LOADING..." : "FIGHT!"}</span>
           </button>
           <div className="players-online">
             <span>Players online:</span>
