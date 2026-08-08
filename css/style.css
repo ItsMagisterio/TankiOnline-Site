@@ -1006,14 +1006,10 @@ h2.internal__media {
   height: 36px;
   display: flex;
   align-items: center;
-  padding: 0 10px;
+  padding: 0;
   color: #fff;
-  font-size: 18px;
+  font-size: 16px;
   text-shadow: 0 1px 2px rgba(0, 0, 0, .8);
-  border: 2px solid rgba(190, 194, 198, .85);
-  border-radius: 6px;
-  background: linear-gradient(to bottom, rgba(66, 70, 74, .94), rgba(19, 22, 26, .96));
-  box-shadow: inset 0 1px 0 rgba(255,255,255,.18), 0 1px 3px rgba(0,0,0,.45);
   z-index: 101;
 }
 .server-picker__label {
@@ -1022,12 +1018,17 @@ h2.internal__media {
 }
 .server-picker__control {
   box-sizing: border-box;
-  height: 32px;
+  height: 36px;
   flex: 1;
   display: flex;
   align-items: center;
   position: relative;
   padding: 0 18px 0 12px;
+  border: 2px solid rgba(190, 194, 198, .85);
+  border-radius: 6px;
+  background: linear-gradient(to bottom, rgba(66, 70, 74, .94), rgba(19, 22, 26, .96));
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.18), 0 1px 3px rgba(0,0,0,.45);
+  cursor: pointer;
 }
 .server-picker__number {
   margin-right: 9px;
@@ -1057,6 +1058,40 @@ h2.internal__media {
   border-left: 9px solid transparent;
   border-right: 9px solid transparent;
   border-top: 10px solid #eee;
+}
+.server-picker__options {
+  display: none;
+  position: absolute;
+  top: 40px;
+  right: 0;
+  width: 261px;
+  padding: 4px;
+  box-sizing: border-box;
+  border: 2px solid rgba(190, 194, 198, .85);
+  border-radius: 6px;
+  background: rgba(20, 23, 26, .98);
+  box-shadow: 0 2px 7px rgba(0, 0, 0, .55);
+  z-index: 110;
+}
+.server-picker.is-open .server-picker__options {
+  display: block;
+}
+.server-picker__option {
+  display: block;
+  width: 100%;
+  padding: 7px 10px;
+  border: 0;
+  border-radius: 3px;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+  font: inherit;
+  text-align: left;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, .8);
+}
+.server-picker__option:hover,
+.server-picker__option.is-selected {
+  background: linear-gradient(to bottom, #5b6166, #292d31);
 }
 .main-header__server {
   width: 331px;
@@ -1301,6 +1336,23 @@ h2.internal__media {
 .main-header__online .digits {
   display: block;
   float: right;
+}
+
+/* Compact game controls: keep the server picker above JOGUE and remove DOWNLOAD. */
+.main-header__download-button {
+  display: none !important;
+}
+
+.server-picker {
+  top: 19px;
+}
+
+.main-header__fight-button {
+  top: 72px;
+}
+
+.main-header__online {
+  top: 172px;
 }
 
 .visual {
