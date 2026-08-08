@@ -2,6 +2,8 @@ import { useState } from "react";
 import buttonGreen from "@assets/buttonGreen_1786159594596.png";
 import buttonGreenOver from "@assets/buttonGreenOver_1786159594595.png";
 import helpSprite from "@assets/Без_названия_1786160061065.png";
+import originalLogo from "@assets/image_1786106261914.png";
+import originalBackground from "@assets/image_1786106129787.png";
 
 const base = import.meta.env.BASE_URL;
 
@@ -23,7 +25,7 @@ export default function App() {
   const [fightState, setFightState] = useState(false);
 
   return (
-    <main className="game-page">
+    <main className="game-page" style={{ backgroundImage: `url(${originalBackground})` }}>
       <header className="topbar">
         <nav className="topnav" aria-label="Main navigation">
           {navigation.map(([icon, label], index) => (
@@ -76,7 +78,7 @@ export default function App() {
       </header>
 
       <section className="hero" aria-label="Tanki Online">
-        <img className="tanki-logo" src={`${base}images/tanki-logo.png`} alt="Tanki Online" />
+        <img className="tanki-logo" src={originalLogo} alt="Tanki Online" />
         <div className="game-controls">
           <div className="server-row">
             <span className="server-label">Server</span>
@@ -122,12 +124,45 @@ export default function App() {
           <img src={`${base}images/promo-reference.png`} alt="Join us on Facebook" />
         </div>
         <div className="loading-grid">
-          <div className="loading-panel"><Spinner /></div>
-          <div className="loading-panel"><Spinner /></div>
-          <div className="loading-panel"><Spinner /></div>
+          <a className="loading-panel" href="#news" aria-label="News loading"><Spinner /></a>
+          <a className="loading-panel" href="#news" aria-label="News loading"><Spinner /></a>
+          <a className="loading-panel" href="#news" aria-label="News loading"><Spinner /></a>
         </div>
-        <div className="loading-wide"><Spinner /></div>
+        <div className="loading-wide" id="news"><Spinner /></div>
+
+        <div className="content-grid">
+          <article className="content-card">
+            <h2>Top 10 clans</h2>
+            <time dateTime="2014-02-23">23.02.2014</time>
+            {Array.from({ length: 10 }, (_, index) => <p key={index}>{index + 1}. null</p>)}
+          </article>
+          <article className="content-card">
+            <h2>Top 10 players</h2>
+            <time dateTime="2014-02-23">23.02.2014</time>
+            {Array.from({ length: 10 }, (_, index) => <p key={index}>{index + 1}. {index === 9 ? "MypCak" : "Nickname"}</p>)}
+          </article>
+          <article className="content-card poll-card">
+            <h2>Polls</h2>
+            <strong>When do you usually check your email?</strong>
+            {["In the morning", "In the afternoon", "In the evening", "At night"].map((option) => (
+              <label key={option}><input type="radio" name="poll" /> {option}</label>
+            ))}
+            <button type="button" className="poll-button">Vote</button>
+            <button type="button" className="results-button">Results</button>
+          </article>
+        </div>
       </section>
+
+      <footer className="site-footer">
+        <div className="footer-inner">
+          <p>© Tanki Online Europe Ltd. All rights reserved.<br />Contact us regarding any issues: <a href="mailto:help@tankionline.com">help@tankionline.com</a></p>
+          <nav aria-label="Footer navigation">
+            <a href="#eula">EULA</a>
+            <a href="#rules">Game rules</a>
+            <a href="#privacy">Privacy and Cookies Policy</a>
+          </nav>
+        </div>
+      </footer>
     </main>
   );
 }

@@ -21,7 +21,7 @@ body,
 
 body {
   overflow-x: hidden;
-  background: #080a09 url("/images/battlefield-bg.png") center top / 100% auto no-repeat;
+  background: #0e0904 url("/images/battlefield-bg.png") center top / max(100%, 1263px) auto no-repeat;
 }
 
 button {
@@ -35,9 +35,12 @@ button:focus-visible {
 
 .game-page {
   position: relative;
-  min-height: calc(1200 * var(--s));
+  min-height: 100vh;
   overflow: hidden;
-  background: url("/images/battlefield-bg.png") center top / 100% auto no-repeat;
+  background-color: #0e0904;
+  background-position: center top;
+  background-size: max(100%, 1263px) auto;
+  background-repeat: no-repeat;
 }
 
 .topbar {
@@ -341,6 +344,108 @@ button:focus-visible {
   padding-bottom: calc(100 * var(--s));
 }
 
+.content-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: calc(10 * var(--s));
+  margin-top: calc(20 * var(--s));
+}
+
+.content-card {
+  min-height: calc(245 * var(--s));
+  padding: calc(18 * var(--s)) calc(20 * var(--s));
+  color: #dedede;
+  border: 1px solid rgba(143, 143, 143, 0.9);
+  border-radius: calc(5 * var(--s));
+  background: rgba(0, 0, 0, 0.78);
+  box-shadow: 0 0 calc(5 * var(--s)) rgba(0, 0, 0, 0.85);
+  font-size: calc(14 * var(--s));
+  line-height: 1.45;
+}
+
+.content-card h2 {
+  margin: 0 0 calc(10 * var(--s));
+  color: #f1f1f1;
+  font-size: calc(21 * var(--s));
+  font-weight: 400;
+}
+
+.content-card time {
+  display: block;
+  margin-bottom: calc(12 * var(--s));
+  color: #888;
+}
+
+.content-card p {
+  margin: 0;
+}
+
+.poll-card strong {
+  display: block;
+  margin-bottom: calc(14 * var(--s));
+  color: #fff;
+  font-weight: 400;
+}
+
+.poll-card label {
+  display: block;
+  margin: calc(8 * var(--s)) 0;
+  cursor: pointer;
+}
+
+.poll-card input {
+  accent-color: #74c928;
+}
+
+.poll-button,
+.results-button {
+  margin-top: calc(14 * var(--s));
+  padding: calc(6 * var(--s)) calc(13 * var(--s));
+  color: #fff;
+  border: 1px solid #7e7e7e;
+  border-radius: calc(3 * var(--s));
+  background: linear-gradient(#737373, #303030);
+  cursor: pointer;
+  font-size: calc(14 * var(--s));
+}
+
+.results-button {
+  margin-left: calc(8 * var(--s));
+  color: #aaa;
+  background: transparent;
+}
+
+.site-footer {
+  min-height: calc(93 * var(--s));
+  border-top: 1px solid #262626;
+  background: rgba(0, 0, 0, 0.85);
+}
+
+.footer-inner {
+  position: relative;
+  width: calc(1010 * var(--s));
+  min-height: calc(93 * var(--s));
+  margin: 0 auto;
+  padding: calc(18 * var(--s)) calc(20 * var(--s));
+  color: #aaa;
+  font-size: calc(14 * var(--s));
+  line-height: 1.4;
+}
+
+.footer-inner p {
+  margin: 0;
+}
+
+.footer-inner a {
+  color: #bbb;
+}
+
+.footer-inner nav {
+  display: flex;
+  gap: calc(28 * var(--s));
+  margin-top: calc(12 * var(--s));
+}
+
 .promo-frame,
 .loading-panel,
 .loading-wide {
@@ -438,5 +543,13 @@ button:focus-visible {
 
   .loading-grid {
     grid-template-columns: 1fr;
+  }
+
+  .content-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-inner {
+    width: 94%;
   }
 }

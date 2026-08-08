@@ -32,7 +32,8 @@ emptyOutDir: true
 server: {
 host: "127.0.0.1",
 port,
-strictPort: true
+strictPort: true,
+allowedHosts: [".replit.dev"]
 },
 
 preview: {
