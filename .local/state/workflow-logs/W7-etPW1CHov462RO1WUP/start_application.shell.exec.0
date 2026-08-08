@@ -1,0 +1,187 @@
+
+> workspace@1.0.0 dev
+> vite --host 0.0.0.0 --port 5000
+
+[1G[0K
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J
+  [32m[1mVITE[22m v8.2.1[39m  [2mready in [0m[1m229[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5000[22m/[39m
+  [32m➜[39m  [1mNetwork[22m: [36mhttp://172.24.0.2:[1m5000[22m/[39m  [2meth0[22m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+[2m9:39:45 AM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mUnable to load server status SyntaxError: Unexpected non-whitespace character after JSON at position 285 (line 16 column 1)
+    at updateServerStatus (https://efa8e196-847f-4f76-9a93-4b699ae5ff0e-00-st7xm0vtm2wi.kirk.replit.dev/src/main.ts:228:31)
+[2m9:39:49 AM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mUnable to load server status SyntaxError: Unexpected non-whitespace character after JSON at position 285 (line 16 column 1)
+[2m9:39:52 AM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mUnable to load server status SyntaxError: Unexpected non-whitespace character after JSON at position 285 (line 16 column 1)
+    at updateServerStatus (https://efa8e196-847f-4f76-9a93-4b699ae5ff0e-00-st7xm0vtm2wi.kirk.replit.dev/src/main.ts:228:31)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:39:55 AM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mUnable to load server status SyntaxError: Unexpected non-whitespace character after JSON at position 285 (line 16 column 1)
+    at updateServerStatus (https://efa8e196-847f-4f76-9a93-4b699ae5ff0e-00-st7xm0vtm2wi.kirk.replit.dev/src/main.ts:228:31) [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:40:01 AM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mUnable to load server status SyntaxError: Unexpected non-whitespace character after JSON at position 285 (line 16 column 1)
+    at updateServerStatus (https://efa8e196-847f-4f76-9a93-4b699ae5ff0e-00-st7xm0vtm2wi.kirk.replit.dev/src/main.ts:228:31) [33m(x3)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:40:05 AM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mUnable to load server status SyntaxError: Unexpected non-whitespace character after JSON at position 285 (line 16 column 1)
+    at updateServerStatus (https://efa8e196-847f-4f76-9a93-4b699ae5ff0e-00-st7xm0vtm2wi.kirk.replit.dev/src/main.ts:228:31) [33m(x4)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:40:10 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.ts[22m
+[2m9:40:11 AM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mUnable to load server status SyntaxError: Unexpected non-whitespace character after JSON at position 285 (line 16 column 1)
+    at updateServerStatus (https://efa8e196-847f-4f76-9a93-4b699ae5ff0e-00-st7xm0vtm2wi.kirk.replit.dev/src/main.ts:228:31)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:40:40 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.ts[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:40:41 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mindex.html[22m
