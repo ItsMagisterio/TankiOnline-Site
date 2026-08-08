@@ -1,44 +1,40 @@
-# [Project name]
+# Tanki Online
 
-_Replace the heading above with the project's name, and this line with one sentence describing what this app does for users._
+Реконструкция стартовой страницы Tanki Online на React и Vite.
 
 ## Run & Operate
 
-- `pnpm --filter @workspace/api-server run dev` — run the API server (port 5000)
-- `pnpm run typecheck` — full typecheck across all packages
-- `pnpm run build` — typecheck + build all packages
-- `pnpm --filter @workspace/api-spec run codegen` — regenerate API hooks and Zod schemas from the OpenAPI spec
-- `pnpm --filter @workspace/db run push` — push DB schema changes (dev only)
-- Required env: `DATABASE_URL` — Postgres connection string
+- `pnpm --filter @workspace/tanki-online-clone run dev` — run the website
+- `pnpm --filter @workspace/tanki-online-clone run build` — build the website
+- `pnpm --filter @workspace/tanki-online-clone run typecheck` — typecheck the website
 
 ## Stack
 
-- pnpm workspaces, Node.js 24, TypeScript 5.9
-- API: Express 5
-- DB: PostgreSQL + Drizzle ORM
-- Validation: Zod (`zod/v4`), `drizzle-zod`
-- API codegen: Orval (from OpenAPI spec)
-- Build: esbuild (CJS bundle)
+- pnpm workspace, Node.js, TypeScript
+- React + Vite
+- Tailwind CSS
 
 ## Where things live
 
-_Populate as you build — short repo map plus pointers to the source-of-truth file for DB schema, API contracts, theme files, etc._
+- `artifacts/tanki-online-clone/src/App.tsx` — page structure and interactions
+- `artifacts/tanki-online-clone/src/index.css` — visual styling
+- `artifacts/tanki-online-clone/public/images/` — page imagery
 
 ## Architecture decisions
 
-_Populate as you build — non-obvious choices a reader couldn't infer from the code (3-5 bullets)._
+- The app is a static frontend reconstruction and does not require a database or API server.
 
 ## Product
 
-_Describe the high-level user-facing capabilities of this app once they exist._
+- Displays the Tanki Online landing page with navigation, server selection, language menu, help popover, and Fight button interaction.
 
 ## User preferences
 
-_Populate as you build — explicit user instructions worth remembering across sessions._
+_No additional preferences recorded._
 
 ## Gotchas
 
-_Populate as you build — sharp edges, "always run X before Y" rules._
+- Start the `artifacts/tanki-online-clone: web` workflow to preview the site.
 
 ## Pointers
 
