@@ -1,30 +1,26 @@
-# Tanki Online – Brazilian Portuguese Fan Site
+# Tanki Online BR — Static Website
 
-A static website for the Tanki Online browser game, in Brazilian Portuguese. It includes a navigation bar, hero banner, news feed, and links to game resources (Wiki, Discord, rankings, support).
+A static Brazilian Portuguese website for the Tanki Online browser tank game. Originally imported from GitHub.
 
 ## Stack
+- Pure static site: HTML, CSS, JavaScript
+- Custom fonts (DINPro, Panton) and images bundled locally
+- JSON data files in `br/posts/` for news/post listings
 
-- Pure static site: HTML, CSS, JavaScript, images, fonts
-- No build step or backend required
-
-## Running
-
-The site is served with `npx --yes serve` on port 5000.
-
-**Workflow:** `Start application`  
-**Command:** `npx --yes serve . -p 5000 --no-clipboard`
-
-## Structure
-
+## How to run
+The **Start application** workflow serves the site with:
 ```
-index.html      – Main page
-css/            – Stylesheets (normalize, colorbox, flags, custom)
-js/             – JavaScript (jQuery, parallax, helpers, etc.)
-images/         – Site images and sprites
-fonts/          – Custom fonts (DINPro, Panton)
+npx serve . -p 5000
 ```
+Open the preview pane to see it on port 5000.
 
-## Notes
+## Project structure
+- `index.html` — main entry point
+- `css/` — stylesheets (normalize, colorbox, flags, local styles)
+- `js/` — JavaScript files
+- `images/` — all image assets
+- `fonts/` — custom font files
+- `br/posts/` — JSON data files for news posts
 
-- The site originally embedded Flash game content; some links (e.g. the play button) point to external Tanki Online servers and won't function without those services.
-- A few 404 errors in the browser console are for external resources (Google Fonts CDN, external scripts) that are referenced but unavailable in this local copy.
+## User preferences
+<!-- Add any user-specific preferences here -->
