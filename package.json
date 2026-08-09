@@ -1,17 +1,22 @@
 {
   "name": "workspace",
   "version": "1.0.0",
+  "private": true,
   "type": "module",
   "scripts": {
     "dev": "vite --host 0.0.0.0 --port 5000",
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview --host 0.0.0.0 --port 5000"
   },
-  "keywords": ["tanki-online", "vite", "typescript"],
+  "keywords": [
+    "tanki-online",
+    "vite",
+    "typescript"
+  ],
   "author": "",
   "license": "MIT",
   "description": "Tanki Online Brazilian Portuguese landing page",
-  "dependencies": {
+  "devDependencies": {
     "typescript": "^7.0.2",
     "vite": "^8.2.1"
   }
